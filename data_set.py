@@ -8,7 +8,7 @@ import re
 
 # 以下、書きたい処理
 def data_set():
-    with open("./all_token.csv", "r", encoding="utf_8_sig") as f:
+    with open("./sample.csv", "r", encoding="utf_8_sig") as f:
         reader = csv.reader(f,delimiter = "\t")
         row = [r for r in reader]
 
